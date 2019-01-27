@@ -5,29 +5,34 @@ body {
 
 .bg-light {
     background-color: #4e4c49!important;
-    color: white;
-}
-
-.nav-link {
-
-    
-    color: white;
-    
-  
-}
-
-ul.nav a:hover {
-    background-color: blue !important;
+    height: 120px;
+    font-weight: bold;
 }
 
 .navbar-light .navbar-brand {
     color: white;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    font-family: 'Major Mono Display', monospace;
+    font-size: 150%;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
+    margin-left:5px;
+  margin-right:12px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 100%;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: green;
     font-weight: bold;
+
+}
+.jumbotron {
+background-image: url(../images/jumbo1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
 }
