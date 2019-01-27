@@ -1,5 +1,5 @@
 body {
- background-color: azure;
+ background-color: #e6e6e6;
 
 }
 
@@ -9,9 +9,13 @@ body {
     font-weight: bold;
 }
 
+#navbarNav {
+    background-color: #4e4c49;
+
+}
+
 .navbar-light .navbar-brand {
     color: white;
-    text-align: center;
     position: relative;
     left: 50%;
     transform: translatex(-50%);
@@ -26,11 +30,13 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 100%;
 }
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .active.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: green;
     font-weight: bold;
 
 }
+
+
 .jumbotron {
 background-image: url(../images/jumbo1.jpg);
 background-size: cover;
@@ -49,4 +55,26 @@ font-family: 'Open Sans Condensed', sans-serif;
 .lead {
     font-weight: 1000;
     font-weight: bold;
+}
+
+.card {
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.footer {
+    
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #4e4c49;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:125%;
+    
+  }
+  
+  .text-muted {
+    color: white!important;
 }
