@@ -1,0 +1,33 @@
+body {
+ background-color: azure;
+
+}
+
+.bg-light {
+    background-color: #4e4c49!important;
+    color: white;
+}
+
+.nav-link {
+
+    
+    color: white;
+    
+  
+}
+
+ul.nav a:hover {
+    background-color: blue !important;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: green;
+    font-weight: bold;
+}
