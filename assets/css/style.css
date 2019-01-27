@@ -37,7 +37,7 @@ body {
 }
 
 
-.jumbotron {
+.top-header {
 background-image: url(../images/jumbo1.jpg);
 background-size: cover;
 background-repeat: no-repeat;
@@ -59,7 +59,20 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 .card {
     font-family: 'Open Sans Condensed', sans-serif;
+    opacity: 0.90;
 
+}
+
+.btn-primary{
+
+    background-color: #4e4c49;
+    border: 0ch;
+}
+
+.bottom-footer  {
+
+    background-image: url(../images/jumbo2.jpg);
+    text-align: center;
 }
 .footer {
     
