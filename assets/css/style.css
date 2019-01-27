@@ -16,7 +16,7 @@ body {
     left: 50%;
     transform: translatex(-50%);
     font-family: 'Major Mono Display', monospace;
-    font-size: 150%;
+    font-size: 200%;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -35,4 +35,18 @@ body {
 background-image: url(../images/jumbo1.jpg);
 background-size: cover;
 background-repeat: no-repeat;
+text-align: center;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.jumboCall {
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 500%;
+    font-weight: bold;
+}
+
+.lead {
+    font-weight: 1000;
+    font-weight: bold;
 }
