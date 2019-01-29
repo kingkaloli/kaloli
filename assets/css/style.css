@@ -23,18 +23,7 @@ body {
     font-size: 200%;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: white;
-    margin-left:5px;
-  margin-right:12px;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 100%;
-}
-.navbar-light .navbar-nav .active.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: green;
-    font-weight: bold;
 
-}
 
 
 .top-header {
@@ -70,9 +59,11 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .bottom-footer  {
-
     background-image: url(../images/jumbo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .footer {
     
